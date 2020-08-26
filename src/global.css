@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #87CEFA;
+}
+
+.container {
+    width: 80%;
+    height: 94vh;
+    margin-top: 3vh;
+    margin-left: 18%;
+    background-color:#F5FFFA;
+    
+    padding: 10px;
+    box-shadow: 10px 10px #888888;
+}

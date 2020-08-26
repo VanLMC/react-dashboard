@@ -1,0 +1,31 @@
+
+.accounting-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.table{
+  margin-top: 5%;
+  border: 5px solid #00008B;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+th,td {
+  padding: 5px;
+  border: 5px solid #00008B;
+  text-align: center;
+  font-weight: 900;
+}
+
+
+
+.card{
+    background-color: #ffff;
+    padding: 10px;
+    height: 100%;   
+    border-radius: 10px;
+}
+

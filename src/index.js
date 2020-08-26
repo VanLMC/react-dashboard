@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import HomePage from './pages/home';
+import FinancesPage from './pages/finances';
+import AccountingPage from './pages/accounting';
+import './global.css';
 import * as serviceWorker from './serviceWorker';
+import Sidebar from './components/sidebar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    
+
+    <Router>
+      <Sidebar />
+        <Route path="/home" component={HomePage} />
+        <Route path="/financeiro" component={FinancesPage} />
+        <Route path="/contabilidade" component={AccountingPage} />
+    </Router>
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
