@@ -2,27 +2,52 @@
 
 }
 
+.card-1 { grid-area: card-1; }
+.card-2 { grid-area: card-2; }
+.card-3 { grid-area: card-3; }
+.card-4 { grid-area: card-4; }
 .graph-1 { grid-area: graph-1; }
 .graph-2 { grid-area: graph-2; }
-.graph-3 { grid-area: graph-3; }
-.graph-4 { grid-area: graph-4; }
-.graph-5 { grid-area: graph-5; }
 
+.card-1{
+  width: 100%;
+  height: 100%;
+}
 .card{
-    background-color: #ffff;
-    padding: 10px;
-    height: 100%;   
-    border-radius: 10px;
+  background-color: #ffff;
+  padding: 10px;
+  height: 100%;
+  
+  border-radius: 10px;
 }
 
-.grid-container {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-gap: 10px;
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-header {
+  font-size: 20px;
+  font-weight: 900;
+  color: #00008B;
+}
+.card-footer {
+  font-size: 30px;
+  font-weight: 900;
+  color: #87CEFA;
+}
+
+.home-page>.grid-container {
+
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-gap: 10px;
     grid-template-areas:
-      'graph-1 graph-1 graph-2 graph-2 graph-3 graph-3'
-      'graph-4 graph-4 graph-4 graph-5 graph-5 graph-5';
+      'card-1 card-1 card-2 card-2 card-3 card-3'
+      'graph-1 graph-1 graph-1 graph-2 graph-2 graph-2';
       background-color: #00008B;
     
     padding: 10px;
