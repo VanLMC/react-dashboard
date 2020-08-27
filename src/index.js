@@ -15,7 +15,7 @@ ReactDOM.render(
 
     <Router>
       <Sidebar />
-        <Route path="/home" component={HomePage} />
+        <Route path="/" component={HomePage} exact/>
         <Route path="/financeiro" component={FinancesPage} />
         <Route path="/contabilidade" component={AccountingPage} />
     </Router>
