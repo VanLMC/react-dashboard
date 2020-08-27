@@ -10,8 +10,12 @@
   margin-top: 5%;
   border: 5px solid #00008B;
   border-radius: 10px;
+  height: 80%;
+  width: 80%;
   border-collapse: collapse;
 }
+
+th,tr:nth-child(even){background-color: #87CEFA;}
 
 th,td {
   padding: 5px;

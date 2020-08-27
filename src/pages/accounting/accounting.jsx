@@ -3,7 +3,7 @@ import './accounting.css';
 
 import {Pie, Line, Bar} from 'react-chartjs-2';
 
-export default function Home() {
+export default function Accounting() {
 
     let [chartOptions, setOptions ] = useState({            
             legend: {
@@ -46,7 +46,7 @@ const [chartData2, setChartData2 ] = useState({
     return (
         <div className="accounting-page container">
 
-                <h1>Rendimentos Anuais</h1>
+                <h1>Rendimentos Semestrais</h1>
                 <table className="table">
                     <thead>
                         <tr>
